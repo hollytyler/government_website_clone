@@ -1,0 +1,8 @@
+.header {
+	background-color: black;
+}
+
+.header__logo {
+	color: white;
+	font-size: 60px;
+}
