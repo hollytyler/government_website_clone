@@ -1,8 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 .header {
 	background-color: black;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .header__logo {
 	color: white;
-	font-size: 60px;
+	font-size: 40px;
+	margin-left: 120px;
+	font-weight: bold;
 }
+
+.header__image {
+	width: 50px;
+	height: auto;
+}
+
+.header__selectors {
+	margin-right: 120px;
+}
+  
